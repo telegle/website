@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 
 import TelegramLogo from '@/button/TelegramLogo';
 import { AppConfig } from '@/utils/AppConfig';
@@ -13,6 +14,7 @@ import { Logo } from './Logo';
 
 const Hero = () => {
   const router = useRouter();
+  const { t } = useTranslation('common');
   return (
     <Background color="bg-gray-100">
       <Section yPadding="py-6">
@@ -33,16 +35,16 @@ const Hero = () => {
           size={400}
           title={
             <>
-              {'Incontra ragazze e ragazzi su\n'}
-              <span className="text-primary-500">Telegle</span>
+              {`${t('preTitle')}\n`}
+              <span className="text-primary-500">{t('title')}</span>
             </>
           }
-          description="Richiede Telegram."
+          description={t('subTitle')}
           button={
             <Link href={AppConfig.bot_link}>
               <Button xl>
                 <>
-                  Inizia a chattare
+                  {t('cta')}
                   <TelegramLogo />
                 </>
               </Button>
