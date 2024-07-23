@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
+import TelegramLogo from '@/button/TelegramLogo';
 import { AppConfig } from '@/utils/AppConfig';
 
 import { Background } from '../background/Background';
@@ -42,16 +43,7 @@ const Hero = () => {
               <Button xl>
                 <>
                   Inizia a chattare
-                  <img
-                    style={{
-                      display: 'inline',
-                      filter: 'invert(1)',
-                      marginLeft: '0.3rem',
-                    }}
-                    src="/assets/images/telegram.svg"
-                    width={40}
-                    alt="telegram"
-                  />
+                  <TelegramLogo />
                 </>
               </Button>
             </Link>
