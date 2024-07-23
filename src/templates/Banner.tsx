@@ -9,22 +9,23 @@ import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
 
 const Banner = () => {
-  const { t } = useTranslation('common', { keyPrefix: 'banner' });
+  const { t } = useTranslation('common');
   return (
     <Section>
       <CTABanner
-        title={t('title')}
-        subtitle={t('subtitle')}
+        title={t('banner.title')}
+        subtitle={t('banner.subtitle')}
         button={
           <Link href={AppConfig.bot_link}>
             <Button>
               <>
-                {t('cta')}
+                {t('banner.button')}
                 <TelegramLogo />
               </>
             </Button>
           </Link>
         }
+        description={t('telegram')}
       />
     </Section>
   );

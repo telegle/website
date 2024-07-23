@@ -2,12 +2,12 @@
   "hero": {
     "preTitle": "Meet girls and boys on",
     "title": "Telegle",
-    "subTitle": "Powered by Telegram.",
-    "cta": "Start chatting"
+    "button": "Start chatting"
   },
   "banner": {
     "title": "Hundreds of cool people are waiting for you.",
     "subtitle": "Start chatting now.",
-    "cta": "Check out the bot"
-  }
+    "button": "Check out the bot"
+  },
+  "telegram": "Powered by Telegram."
 }

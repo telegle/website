@@ -15,7 +15,7 @@ import { Logo } from './Logo';
 
 const Hero = () => {
   const router = useRouter();
-  const { t } = useTranslation('common', { keyPrefix: 'hero' });
+  const { t } = useTranslation('common');
   return (
     <Background color="bg-gray-100">
       <Section yPadding="py-6">
@@ -36,16 +36,16 @@ const Hero = () => {
           size={400}
           title={
             <>
-              {`${t('preTitle')}\n`}
-              <span className="text-primary-500">{t('title')}</span>
+              {`${t('hero.preTitle')}\n`}
+              <span className="text-primary-500">{t('hero.title')}</span>
             </>
           }
-          description={t('subTitle')}
+          description={t('telegram')}
           button={
             <Link href={AppConfig.bot_link}>
               <Button xl>
                 <>
-                  {t('cta')}
+                  {t('hero.button')}
                   <TelegramLogo />
                 </>
               </Button>
