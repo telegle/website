@@ -1,6 +1,13 @@
 {
-  "preTitle": "Incontra ragazze e ragazzi su",
-  "title": "Telegle",
-  "subTitle": "Richiede Telegram.",
-  "cta": "Inizia a chattare"
+  "hero": {
+    "preTitle": "Incontra ragazze e ragazzi su",
+    "title": "Telegle",
+    "subTitle": "Richiede Telegram.",
+    "cta": "Inizia a chattare"
+  },
+  "banner": {
+    "title": "Centinaia di persone interessanti aspettano solo te.",
+    "subtitle": "Inizia a chattare adesso.",
+    "cta": "Vai al bot"
+  }
 }

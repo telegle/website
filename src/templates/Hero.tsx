@@ -4,6 +4,7 @@ import { useTranslation } from 'next-i18next';
 
 import TelegramLogo from '@/button/TelegramLogo';
 import { AppConfig } from '@/utils/AppConfig';
+import { getFlagEmoji } from '@/utils/functions';
 
 import { Background } from '../background/Background';
 import { Button } from '../button/Button';
@@ -14,7 +15,7 @@ import { Logo } from './Logo';
 
 const Hero = () => {
   const router = useRouter();
-  const { t } = useTranslation('common');
+  const { t } = useTranslation('common', { keyPrefix: 'hero' });
   return (
     <Background color="bg-gray-100">
       <Section yPadding="py-6">
@@ -22,7 +23,7 @@ const Hero = () => {
           {router.locales?.map((locale) => (
             <li key={locale}>
               <Link href={router.asPath} locale={locale}>
-                {locale}
+                {getFlagEmoji(locale)}
               </Link>
             </li>
           ))}
