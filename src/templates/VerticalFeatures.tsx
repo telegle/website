@@ -13,20 +13,20 @@ const VerticalFeatures = () => {
       <VerticalFeatureRow
         title={t('features.first.title')}
         description={t('features.first.description')}
-        image="/assets/images/1.png"
+        image="https://i.ibb.co/S5DcZQ2/1.png"
         imageAlt={t('features.first.alt')}
       />
       <VerticalFeatureRow
         title={t('features.second.title')}
         description={t('features.second.description')}
-        image="/assets/images/2.png"
+        image="https://i.ibb.co/Sd8mzVs/2.png"
         imageAlt={t('features.second.alt')}
         reverse
       />
       <VerticalFeatureRow
         title={t('features.third.title')}
         description={t('features.third.description')}
-        image="/assets/images/3.png"
+        image="https://i.ibb.co/m0HZKZ6/3.png"
         imageAlt={t('features.third.alt')}
       />
     </Section>
