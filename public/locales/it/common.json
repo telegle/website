@@ -9,5 +9,25 @@
     "subtitle": "Inizia a chattare adesso.",
     "button": "Vai al bot"
   },
-  "telegram": "Richiede Telegram."
+  "telegram": "Richiede Telegram.",
+  "features": {
+    "title": "",
+    "description": "",
+
+    "first": {
+      "title": "Incontra Chi Vuoi Tu",
+      "description": "Trova esattamente chi cerchi con i nostri potenti filtri di selezione. Personalizza la tua esperienza di chat anonima scegliendo il sesso, l'età minima e massima, la distanza massima e la lingua del tuo interlocutore. Che tu voglia parlare con qualcuno vicino a te o scoprire nuove culture, hai sempre il controllo sulle tue interazioni.",
+      "alt": "Uno screenshot del bot, che mostra due utenti che si incontrano e si scambiano dei messaggi vocali."
+    },
+    "second": {
+      "title": "Più che una Chat, un Gioco",
+      "description": "Trasforma le tue conversazioni in un'esperienza unica con il nostro Chat Pass trimestrale. Personalizza il tuo profilo anonimo con skin e badge esclusivi che riflettono la tua personalità. Sfida la sorte con la slot machine per recuperare premi passati e raccogli bonus giornalieri. Divertiti e sentiti sempre te stesso, anche dietro l'anonimato.",
+      "alt": "Uno screenshot del bot, che mostra un albero di monete e un tasto \"Raccogli\" in basso."
+    },
+    "third": {
+      "title": "Sicuro e Moderato by Design",
+      "description": "Chatta in sicurezza grazie al nostro sistema di moderazione integrato. Solo testo e messaggi vocali sono permessi di default, mentre ogni altro tipo di contenuto richiede il consenso esplicito dell'altro utente. Questo garantisce un ambiente sicuro e rispettoso, dove puoi evitare immagini o video indesiderati, proteggendo la tua esperienza di chat.",
+      "alt": "Uno screenshot del bot: un utente prova a mandare uno sticker, che di default viene bloccato."
+    }
+  }
 }

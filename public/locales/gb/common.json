@@ -9,5 +9,25 @@
     "subtitle": "Start chatting now.",
     "button": "Check out the bot"
   },
-  "telegram": "Powered by Telegram."
+  "telegram": "Powered by Telegram.",
+  "features": {
+    "title": "",
+    "description": "",
+
+    "first": {
+      "title": "Meet Who You Want",
+      "description": "Find exactly who you're looking for with our advanced selection filters. Customize your anonymous chat experience by choosing the gender, age range, maximum distance, and language of your chat partner. Whether you want to connect with someone nearby or explore new cultures, you always have control over your interactions.",
+      "alt": "A screenshot from the bot, showing two users meeting each other and sending voice messages."
+    },
+    "second": {
+      "title": "More Than Just a Chat, It's a Game",
+      "description": "Turn your conversations into a unique experience with our quarterly Chat Pass. Customize your anonymous profile with exclusive skins and badges that reflect your personality. Try your luck with the slot machine to win past rewards and collect daily bonuses. Have fun and express yourself, all while staying anonymous.",
+      "alt": "A screenshot from the bot, showing a money tree and a \"Collect\" button  below."
+    },
+    "third": {
+      "title": "Safety and Moderation by Design",
+      "description": "Chat securely with our built-in moderation system. By default, only text and voice messages are allowed, while any other type of content requires explicit consent from the other user. This ensures a safe and respectful environment, protecting you from unwanted images or videos and enhancing your chat experience.",
+      "alt": "A screenshot from the bot: a user tries to send a sticker, but it gets blocked by default."
+    }
+  }
 }
