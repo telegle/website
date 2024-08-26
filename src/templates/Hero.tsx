@@ -33,7 +33,7 @@ const Hero = () => {
       <Section yPadding="pt-20 pb-32">
         <HeroOneLogo
           src="/assets/images/telegle-logo.svg"
-          size={400}
+          size={250}
           title={
             <>
               {`${t('hero.preTitle')}\n`}
@@ -43,7 +43,7 @@ const Hero = () => {
           description={t('telegram')}
           button={
             <Link href={AppConfig.bot_link}>
-              <Button xl>
+              <Button>
                 <>
                   {t('hero.button')}
                   <TelegramLogo />

@@ -16,7 +16,7 @@ const HeroOneLogo = (props: IHeroOneLogoProps) => (
       width={props.size}
       alt="logo"
     />
-    <h1 className="mb-12 mt-6 whitespace-pre-line text-5xl font-bold leading-hero text-gray-900">
+    <h1 className="mb-12 mt-6 whitespace-pre-line text-4xl font-bold text-gray-900">
       {props.title}
     </h1>
     {props.button}
