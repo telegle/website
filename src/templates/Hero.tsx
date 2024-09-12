@@ -18,7 +18,7 @@ const Hero = () => {
   const { t } = useTranslation('common');
   return (
     <Background color="bg-gray-100">
-      <Section yPadding="py-6">
+      <Section yPadding="py-5">
         <NavbarTwoColumns logo={<Logo xl />}>
           {router.locales?.map((locale) => (
             <li key={locale}>
@@ -30,7 +30,7 @@ const Hero = () => {
         </NavbarTwoColumns>
       </Section>
 
-      <Section yPadding="pt-20 pb-32">
+      <Section yPadding="pt-6 pb-16">
         <HeroOneLogo
           src="/assets/images/telegle-logo.svg"
           size={250}

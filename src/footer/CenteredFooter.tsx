@@ -13,11 +13,11 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
   <div className="text-center">
     {props.logo}
 
-    <div className="mt-4 flex justify-center">
+    <div className="flex justify-center">
       <FooterIconList>{props.iconList}</FooterIconList>
     </div>
 
-    <div className="mt-4 text-sm">
+    <div className="mt-1 text-sm">
       <FooterCopyright />
     </div>
   </div>
